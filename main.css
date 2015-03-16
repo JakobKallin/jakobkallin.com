@@ -1,0 +1,70 @@
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+html {
+	padding: 2rem;
+	text-align: center;
+	line-height: 1.25;
+	font-family: Georgia, serif;
+	color: hsl(0, 0%, 25%);
+}
+
+body {
+	max-width: 45em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+figure {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 10em;
+}
+
+figure img {
+	display: block;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+
+ul {
+	display: inline-block;
+	text-align: left;
+}
+
+h1, h2 {
+	font-family: Constantia, Georgia, serif;
+	color: hsl(0, 0%, 0%);
+}
+
+h1 {
+	display: inline-block;
+	margin-bottom: 1rem;
+	padding-bottom: 0.25rem;
+	border-bottom: 1px solid hsl(0, 0%, 0%);
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.25em;
+}
+
+h3:after {
+	content: ":";
+}
+
+h2, h3 {
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+li {
+	list-style-type: square;
+}
